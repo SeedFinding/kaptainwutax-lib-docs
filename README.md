@@ -1,4 +1,6 @@
 # KaptainWutax-docs
+
+https://kaptainwutax.seedfinding.com
 This is the website using docsy and hugo for the kaptainwutax libraries
 
 To run use:
