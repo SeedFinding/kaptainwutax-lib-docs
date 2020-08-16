@@ -4,7 +4,7 @@ This is the website using docsy and hugo for the kaptainwutax libraries
 To run use:
 
 ```sh
-git clone --recurse-submodules --depth 1 https://github.com/hube12/KaptainWutax-docs
+git clone --recurse-submodules --depth 1 https://github.com/hube12/kaptainwutax-lib-docs
 cd KaptainWutax-docsgit 
 docker-compose up --build -d
 ```
