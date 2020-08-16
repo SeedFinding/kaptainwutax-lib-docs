@@ -14,3 +14,7 @@ There are 6 libraries as of right now:
 - ChunkRandomReversal: have all the utilities to reverse the hash that are applied in Minecraft code to the world seed.
 - LattiCG: is a fork of the reversal program use for shortcutting the Java Random LCG.
 
+The next few subsections will be about the different part of minecraft world generation, so you are familiar with it.
+
+Before going through it, you might want to watch this to give you a feel of how the generation is subdivided:
+{{< youtube vc3tBeTgODY >}}
