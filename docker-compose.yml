@@ -9,8 +9,8 @@ services:
     environment:
       - HUGO_REFRESH_TIME=3600
       - HUGO_THEME=docsy
-      - HUGO_BASEURL=seedfinding.com
+      - HUGO_BASEURL=kaptainwutax.seedfinding.com
       - HUGO_WATCH=true
     ports:
-      - 127.0.0.1:5005:443
+      - 127.0.0.1:5013:443
     restart: always
