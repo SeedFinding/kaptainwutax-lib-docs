@@ -1,0 +1,86 @@
++++
+title = "Kaptainwutax-docs"
+linkTitle = "Kaptainwutax-docs"
+
++++
+
+{{< blocks/cover loading="lazy" title="Seed finding made easy !" image_anchor="top" height="full" color="orange" >}}
+<div class="mx-auto">
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
+		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+	</a>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/kaptainwutax/SEED">
+		Go to github <i class="fab fa-github ml-2 "></i>
+	</a>
+	<p class="lead mt-5">Start your jouney here :</p>
+	{{< blocks/link-down color="info" >}}
+</div>
+{{< /blocks/cover >}}
+
+
+{{% blocks/lead color="primary" %}}
+This site provides explanation to use kaptainwutax's libraries.
+The first thing you should do is create a new project in a folder by doing `gradle init`.
+Then you add those lines in your build.gradle:
+<div style="text-align: left!important;">
+
+```groovy
+	repositories {
+		mavenCentral()
+		maven {
+			url "https://jitpack.io"
+		}
+	}
+	dependencies {
+		implementation 'com.github.KaptainWutax:SEED:c540b5224dbb4dc80fe8a25bfcfcf9383f635a0c'
+	}
+```
+
+</div>
+{{% /blocks/lead %}}
+
+{{< blocks/section color="dark" >}}
+{{% blocks/feature icon="fa-lightbulb" title="Batteries included !" %}}
+The librairies mimic enterely the Minecraft part use for world generation which allow to find specific seed and/or formation.
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/kaptainwutax" %}}
+I would love your feedback and your input on what to do next, please head over to [Github](https://github.com/hube12/KaptainWutax-docs/wiki/Helping) to learn how !
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/NeilSeed" %}}
+For announcement of latest features etc.
+{{% /blocks/feature %}}
+
+
+{{< /blocks/section >}}
+
+
+{{< blocks/section color="orange" >}}
+<div class="col">
+<h1 class="text-center">This is the media section</h1>
+</div>
+
+{{< /blocks/section >}}
+
+
+
+{{< blocks/section >}}
+
+{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/hube12/General-Seed-Finder-Tools" %}}
+We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/kaptainwutax" %}}
+For announcement of latest features etc.
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-discord" title="Join us on discord!" url="https://discord.gg/7P3nqzZ" %}}
+To chat with us!
+{{% /blocks/feature %}}
+
+{{< /blocks/section >}}
+

@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  hugo:
+    build: .
+    volumes:
+      - ".:/src/"
+      - "./output/:/output"
+    environment:
+      - HUGO_REFRESH_TIME=3600
+      - HUGO_THEME=docsy
+      - HUGO_BASEURL=seedfinding.com
+      - HUGO_WATCH=true
+    ports:
+      - 127.0.0.1:5005:443
+    restart: always
