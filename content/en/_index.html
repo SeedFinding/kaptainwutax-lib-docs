@@ -18,28 +18,28 @@ linkTitle = "Kaptainwutax-docs"
 {{< /blocks/cover >}}
 
 
-{{% blocks/lead color="primary" %}}
+{{% blocks/lead color="dark" %}}
 This site provides explanation to use kaptainwutax's libraries.
 The first thing you should do is create a new project in a folder by doing `gradle init`.
 Then you add those lines in your build.gradle:
 <div style="text-align: left!important;">
 
 ```groovy
-	repositories {
-		mavenCentral()
-		maven {
-			url "https://jitpack.io"
-		}
-	}
-	dependencies {
-		implementation 'com.github.KaptainWutax:SEED:c540b5224dbb4dc80fe8a25bfcfcf9383f635a0c'
-	}
+ repositories {
+	 mavenCentral()
+	 maven {
+		 url "https://jitpack.io"
+	 }
+ }
+ dependencies {
+	 implementation 'com.github.KaptainWutax:SEED:c540b5224dbb4dc80fe8a25bfcfcf9383f635a0c'
+ }
 ```
 
 </div>
 {{% /blocks/lead %}}
 
-{{< blocks/section color="dark" >}}
+{{< blocks/section color="300" >}}
 {{% blocks/feature icon="fa-lightbulb" title="Batteries included !" %}}
 The librairies mimic enterely the Minecraft part use for world generation which allow to find specific seed and/or formation.
 {{% /blocks/feature %}}
