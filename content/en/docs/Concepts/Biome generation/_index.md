@@ -1,7 +1,7 @@
 ---
 title: "Biome generation"
 linkTitle: "Biome generation"
-weight: 2
+weight: 30
 description: >
   How biome generation works
 ---

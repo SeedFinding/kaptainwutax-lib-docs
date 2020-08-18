@@ -1,16 +1,16 @@
 ---
-title: "Concepts"
-linkTitle: "Concepts"
-weight: 4
+title: "World Generation in a nutshell"
+linkTitle: "World Generation in a nutshell"
+weight: 10
 description: >
-  The gist of it.
+  The world generation described succinctly
 ---
 
-There are 6 libraries as of right now:
-- MathUtils: have all the maths utilities specific to lcg shortcutting and Minecraft world gen.
-- SeedUtils: have all the seed utilities to use correctly the Java Random LCG.
-- FeatureUtils: have all the Minecraft features for most of the versions allowing easier access to them.
-- BiomeUtils: have all the biome generation for all the dimension of Minecraft, so you can generate it.
-- ChunkRandomReversal: have all the utilities to reverse the hash that are applied in Minecraft code to the world seed.
-- LattiCG: is a fork of the reversal program use for shortcutting the Java Random LCG.
+Before anything, we need to agree to some notations since those will be used later on.
 
+Let's rule out a few stuffs first: 
+ - The Java Random class use a 48 bit LCG which mean any number inputted inside will be constrained to 48 bits 
+ number (also known as modulo (2^48)-1).
+ - The only place where the full 64 bits size of a `long` is used in the Biome [QLCG](http://statmath.wu.ac.at/software/prng/doc/prng.html#QCG).
+ - When using a string seed you can only hit the 2^32 range.
+ - When using a random seed you can only hit the 48 bit range and only 82% of it see [that]()
